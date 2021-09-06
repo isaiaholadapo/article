@@ -8,7 +8,6 @@ In Python, we can achieve abstraction by using abstract classes and interfaces. 
 ```
 from abc import ABC, abstractmethod
 
-
 class Shape(ABC):
     # abstract method
     @abstractmethod
@@ -27,7 +26,6 @@ class Triangle(Shape):
 class Square(Shape):
     def sides(self):
         print(' Square has 4 sides')
-
 
 t = Triangle()
 t.sides()
